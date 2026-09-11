@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Luma Beauty helps you discover everyday makeup favorites, trending shades, and easy beauty picks." />
+  <title>Luma Beauty | Everyday Makeup Favorites</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="announcement">Fresh beauty picks, simple routines, no endless scrolling.</div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Luma Beauty home">LUMA <span>BEAUTY</span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a href="#shop">Shop Picks</a>
+      <a href="#categories">Categories</a>
+      <a href="#why-luma">Why Luma</a>
+      <a href="#disclosure">Disclosure</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">CURATED BEAUTY, MADE EASY</p>
+        <h1>Find your next <em>everyday favorite.</em></h1>
+        <p class="hero-text">Luma Beauty highlights makeup people actually reach for — from reliable lip color to easy eyeshadow and everyday essentials.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#shop">Shop our picks</a>
+          <a class="button button-secondary" href="#categories">Browse categories</a>
+        </div>
+        <div class="trust-row" aria-label="Luma Beauty values">
+          <span>✦ Curated picks</span>
+          <span>✦ Easy comparisons</span>
+          <span>✦ Clear affiliate disclosure</span>
+        </div>
+      </div>
+      <div class="hero-visual" aria-label="Decorative beauty product display">
+        <div class="glow glow-one"></div>
+        <div class="glow glow-two"></div>
+        <div class="product-shape lipstick"><span></span></div>
+        <div class="product-shape palette">
+          <i></i><i></i><i></i><i></i>
+        </div>
+        <div class="hero-card">
+          <small>TREND WATCH</small>
+          <strong>Soft neutrals + wearable color</strong>
+          <span>Built for repeat-use beauty.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="categories">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">BROWSE YOUR ROUTINE</p>
+          <h2>Shop by category</h2>
+        </div>
+        <p>Start with the products that get used, replaced, and rediscovered most often.</p>
+      </div>
+
+      <div class="category-grid">
+        <a class="category-card rose" href="#shop" data-filter-link="lips">
+          <span class="category-icon">💄</span>
+          <h3>Lips</h3>
+          <p>Lipstick, gloss, liner, tint</p>
+          <span class="arrow">→</span>
+        </a>
+        <a class="category-card mauve" href="#shop" data-filter-link="eyes">
+          <span class="category-icon">✦</span>
+          <h3>Eyes</h3>
+          <p>Shadow, mascara, liner</p>
+          <span class="arrow">→</span>
+        </a>
+        <a class="category-card sand" href="#shop" data-filter-link="face">
+          <span class="category-icon">◌</span>
+          <h3>Face</h3>
+          <p>Foundation, blush, highlight</p>
+          <span class="arrow">→</span>
+        </a>
+        <a class="category-card cream" href="#shop" data-filter-link="tools">
+          <span class="category-icon">✧</span>
+          <h3>Tools</h3>
+          <p>Brushes, sponges, organizers</p>
+          <span class="arrow">→</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="section shop-section" id="shop">
+      <div class="section-heading shop-heading">
+        <div>
+          <p class="eyebrow">LUMA EDIT</p>
+          <h2>Everyday beauty picks</h2>
+        </div>
+        <p>Starter products are placeholders for now. We’ll replace these with approved affiliate products and links.</p>
+      </div>
+
+      <div class="filters" aria-label="Product filters">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="lips">Lips</button>
+        <button class="filter" data-filter="eyes">Eyes</button>
+        <button class="filter" data-filter="face">Face</button>
+        <button class="filter" data-filter="tools">Tools</button>
+      </div>
+
+      <div class="product-grid">
+        <article class="product-card" data-category="lips">
+          <div class="product-image product-lip">
+            <span class="badge">EVERYDAY PICK</span>
+            <div class="mock-lipstick"></div>
+          </div>
+          <div class="product-info">
+            <p class="product-category">LIPS</p>
+            <h3>Wear-Everywhere Lip Color</h3>
+            <p>A versatile lipstick concept for workdays, weekends, and easy reapplication.</p>
+            <div class="product-bottom"><span>Affiliate link coming soon</span><a href="#disclosure" aria-label="Learn about affiliate links">↗</a></div>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="eyes">
+          <div class="product-image product-eye">
+            <span class="badge">TRENDING</span>
+            <div class="mock-palette"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          </div>
+          <div class="product-info">
+            <p class="product-category">EYES</p>
+            <h3>Neutral Everyday Palette</h3>
+            <p>Easy-to-pair shades designed for quick daytime looks and deeper evening color.</p>
+            <div class="product-bottom"><span>Affiliate link coming soon</span><a href="#disclosure" aria-label="Learn about affiliate links">↗</a></div>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="face">
+          <div class="product-image product-face">
+            <span class="badge">REPEAT BUY</span>
+            <div class="mock-bottle"></div>
+          </div>
+          <div class="product-info">
+            <p class="product-category">FACE</p>
+            <h3>Natural-Finish Base</h3>
+            <p>A daily complexion product concept centered on comfortable, buildable coverage.</p>
+            <div class="product-bottom"><span>Affiliate link coming soon</span><a href="#disclosure" aria-label="Learn about affiliate links">↗</a></div>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="tools">
+          <div class="product-image product-tools">
+            <span class="badge">ESSENTIAL</span>
+            <div class="mock-brush"><i></i></div>
+          </div>
+          <div class="product-info">
+            <p class="product-category">TOOLS</p>
+            <h3>Daily Makeup Brush Set</h3>
+            <p>A compact tool set concept for the makeup steps people use most often.</p>
+            <div class="product-bottom"><span>Affiliate link coming soon</span><a href="#disclosure" aria-label="Learn about affiliate links">↗</a></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section why-section" id="why-luma">
+      <div class="why-copy">
+        <p class="eyebrow">WHY LUMA</p>
+        <h2>Less hunting. Better beauty finds.</h2>
+        <p>Beauty shopping gets noisy fast. Luma Beauty is being built around a simpler idea: highlight useful products, organize them clearly, and make it easy to decide what deserves a closer look.</p>
+      </div>
+      <div class="principles">
+        <div><strong>01</strong><h3>Frequent-use first</h3><p>Prioritize products people regularly use, replace, or repurchase.</p></div>
+        <div><strong>02</strong><h3>Trends with staying power</h3><p>Balance current styles with practical everyday options.</p></div>
+        <div><strong>03</strong><h3>Transparent links</h3><p>Clearly identify that qualifying purchases may earn Luma Beauty a commission.</p></div>
+      </div>
+    </section>
+
+    <section class="disclosure" id="disclosure">
+      <div>
+        <p class="eyebrow">AFFILIATE DISCLOSURE</p>
+        <h2>Transparency matters.</h2>
+      </div>
+      <p>Luma Beauty may earn a commission when you purchase through certain links on this site, at no additional cost to you. Product placement and recommendations should still be based on relevance, usefulness, and fit for our readers.</p>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand footer-brand" href="#top">LUMA <span>BEAUTY</span></a>
+    <p>Curated beauty finds for everyday routines.</p>
+    <p class="copyright">© <span id="year"></span> Luma Beauty</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
