@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Browse the Luma Beauty product catalog by category, trend priority, and everyday usefulness." />
+  <title>Products | Luma Beauty</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="announcement">LUMA PRODUCT CATALOG · BUILT TO KEEP GROWING</div>
+  <header class="site-header">
+    <a class="brand" href="index.html">LUMA <span>BEAUTY</span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="nav-links"><a href="index.html#top-picks">Top Picks</a><a class="active-nav" href="products.html">Products</a><a href="index.html#trend-radar">Trend Radar</a><a href="trends.html">Guides</a><a href="about.html">About</a></nav>
+  </header>
+
+  <main>
+    <section class="catalog-hero">
+      <p class="eyebrow">THE LUMA PRODUCT LIBRARY</p>
+      <h1>One place for every product we’re watching.</h1>
+      <p>This page is designed to be updated constantly. We can add real brands, prices, affiliate links, retailer buttons, rankings and product images here as Luma Beauty grows.</p>
+    </section>
+
+    <section class="catalog-tools">
+      <div class="filters" aria-label="Product filters">
+        <button class="filter active" data-filter="all">All Products</button>
+        <button class="filter" data-filter="lips">Lips</button>
+        <button class="filter" data-filter="eyes">Eyes</button>
+        <button class="filter" data-filter="face">Face</button>
+        <button class="filter" data-filter="tools">Tools</button>
+      </div>
+      <p class="catalog-note">Current status: category-level recommendations. Brand-specific affiliate products will replace placeholders after program approval.</p>
+    </section>
+
+    <section class="catalog-grid" id="catalog">
+      <article class="catalog-item product-card" id="lip-stain" data-category="lips"><div class="catalog-art art-stain"><span></span></div><div><span class="priority very-high">VERY HIGH PRIORITY</span><p class="product-kicker">LIPS · TRENDING</p><h2>Lip Stain</h2><p>Long-wear color, blurred finishes and strong social appeal make this a lead category.</p><div class="catalog-meta"><span>Repeat buy: High</span><span>Trend strength: High</span></div><button class="coming-button" disabled>Affiliate products coming soon</button></div></article>
+      <article class="catalog-item product-card" id="lip-oil" data-category="lips"><div class="catalog-art art-oil"><span></span></div><div><span class="priority very-high">VERY HIGH PRIORITY</span><p class="product-kicker">LIPS · EVERYDAY</p><h2>Lip Oil & Gloss</h2><p>Easy to collect, easy to repurchase, and naturally paired with liners and stains.</p><div class="catalog-meta"><span>Repeat buy: Very high</span><span>Trend strength: High</span></div><button class="coming-button" disabled>Affiliate products coming soon</button></div></article>
+      <article class="catalog-item product-card" id="lip-liner" data-category="lips"><div class="catalog-art art-lipliner"><span></span></div><div><span class="priority high">HIGH PRIORITY</span><p class="product-kicker">LIPS · PAIRING PRODUCT</p><h2>Lip Liner</h2><p>Brown, nude, rose and berry liners work across multiple lip looks and basket-build well.</p><div class="catalog-meta"><span>Repeat buy: High</span><span>Trend strength: High</span></div><button class="coming-button" disabled>Affiliate products coming soon</button></div></article>
+      <article class="catalog-item product-card" id="blush" data-category="face"><div class="catalog-art art-blush"><span></span></div><div><span class="priority very-high">VERY HIGH PRIORITY</span><p class="product-kicker">FACE · TRENDING</p><h2>Cream & Liquid Blush</h2><p>Berry and rosy shades support diffused, healthy-looking color with strong shade-driven shopping appeal.</p><div class="catalog-meta"><span>Repeat buy: High</span><span>Trend strength: Very high</span></div><button class="coming-button" disabled>Affiliate products coming soon</button></div></article>
+      <article class="catalog-item product-card" id="mascara" data-category="eyes"><div class="catalog-art art-mascara"><span></span></div><div><span class="priority very-high">VERY HIGH PRIORITY</span><p class="product-kicker">EYES · STAPLE</p><h2>Brown & Black Mascara</h2><p>Brown mascara serves softer looks while black mascara remains one of beauty’s strongest replenishment staples.</p><div class="catalog-meta"><span>Repeat buy: Very high</span><span>Trend strength: High</span></div><button class="coming-button" disabled>Affiliate products coming soon</button></div></article>
+      <article class="catalog-item product-card" id="skin-tint" data-category="face"><div class="catalog-art art-skin"><span></span></div><div><span class="priority high">HIGH PRIORITY</span><p class="product-kicker">FACE · EVERYDAY</p><h2>Skin Tint</h2><p>Light coverage fits the natural-skin direction and can support shade guides and comparisons.</p><div class="catalog-meta"><span>Repeat buy: High</span><span>Trend strength: High</span></div><button class="coming-button" disabled>Affiliate products coming soon</button></div></article>
+      <article class="catalog-item product-card" id="concealer" data-category="face"><div class="catalog-art art-concealer"><span></span></div><div><span class="priority high">HIGH PRIORITY</span><p class="product-kicker">FACE · STAPLE</p><h2>Concealer</h2><p>A high-frequency complexion essential with broad search demand and shade-selection content potential.</p><div class="catalog-meta"><span>Repeat buy: Very high</span><span>Trend strength: Stable</span></div><button class="coming-button" disabled>Affiliate products coming soon</button></div></article>
+      <article class="catalog-item product-card" id="shadow-stick" data-category="eyes"><div class="catalog-art art-shadow"><span></span></div><div><span class="priority high">HIGH PRIORITY</span><p class="product-kicker">EYES · TRENDING</p><h2>Shadow Sticks & Shimmer</h2><p>Quick metallic, smoky and glossy-looking eye effects without a full palette.</p><div class="catalog-meta"><span>Repeat buy: Medium</span><span>Trend strength: High</span></div><button class="coming-button" disabled>Affiliate products coming soon</button></div></article>
+      <article class="catalog-item product-card" id="eyeliner" data-category="eyes"><div class="catalog-art art-eyeliner"><span></span></div><div><span class="priority medium-high">MEDIUM-HIGH</span><p class="product-kicker">EYES · TRENDING</p><h2>Smudgeable Eyeliner</h2><p>Soft brown, plum and black liners support lived-in eye looks and everyday definition.</p><div class="catalog-meta"><span>Repeat buy: High</span><span>Trend strength: Medium-high</span></div><button class="coming-button" disabled>Affiliate products coming soon</button></div></article>
+      <article class="catalog-item product-card" id="brow-gel" data-category="eyes"><div class="catalog-art art-brow"><span></span></div><div><span class="priority high">HIGH PRIORITY</span><p class="product-kicker">BROWS · STAPLE</p><h2>Brow Gel</h2><p>A fast, approachable routine product with strong replenishment potential.</p><div class="catalog-meta"><span>Repeat buy: Very high</span><span>Trend strength: Stable</span></div><button class="coming-button" disabled>Affiliate products coming soon</button></div></article>
+      <article class="catalog-item product-card" id="setting-spray" data-category="face"><div class="catalog-art art-spray"><span></span></div><div><span class="priority high">HIGH PRIORITY</span><p class="product-kicker">FACE · STAPLE</p><h2>Setting Spray</h2><p>A frequent-use finishing product that fits tutorials, wear tests and routine-based content.</p><div class="catalog-meta"><span>Repeat buy: Very high</span><span>Trend strength: Stable</span></div><button class="coming-button" disabled>Affiliate products coming soon</button></div></article>
+      <article class="catalog-item product-card" id="brushes" data-category="tools"><div class="catalog-art art-brush"><span></span></div><div><span class="priority medium-high">MEDIUM-HIGH</span><p class="product-kicker">TOOLS · EVERGREEN</p><h2>Brushes & Makeup Sponges</h2><p>Evergreen add-ons that complement nearly every product category and gift guide.</p><div class="catalog-meta"><span>Repeat buy: Medium</span><span>Trend strength: Stable</span></div><button class="coming-button" disabled>Affiliate products coming soon</button></div></article>
+    </section>
+
+    <section class="catalog-manage-note"><p class="eyebrow">HOW WE’LL USE THIS PAGE</p><h2>Easy to update as the business grows.</h2><p>When you find a product you want on Luma Beauty, send me the product name and affiliate link. I can add it here, change its rank, move it between categories, update the description, or feature it in Top Picks on the homepage.</p></section>
+  </main>
+  <footer><a class="brand footer-brand" href="index.html">LUMA <span>BEAUTY</span></a><div class="footer-links"><a href="products.html">Products</a><a href="about.html">About</a><a href="privacy.html">Privacy</a></div><p>© <span id="year"></span> Luma Beauty</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
